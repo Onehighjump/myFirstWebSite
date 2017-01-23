@@ -1,0 +1,37 @@
+body {
+	background-image: url("https://media.giphy.com/media/izCbJJ0hYL9tK/giphy.gif");
+	color: white;
+}
+
+.row {
+	min-height: 50px;
+	border: 2px solid blue;
+	background-color: red;
+	text-align: center;
+}
+
+.box {
+	background-color: cyan;
+	min-height: 600px;
+	width: 49%;
+	float: left;
+	//box-sizing: borderbox;//
+	border: 1px solid black;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 20px;
+	background-image: url("https://media.giphy.com/media/3B95ohHlJPOCI/giphy.gif");
+}
+
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+img {
+	border-radius: 50%;
+	height: 350px;
+	width: 350px;
+}
+
